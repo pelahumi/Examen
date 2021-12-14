@@ -96,19 +96,21 @@ def Kevin():
             
             if len(combinacion) == 5:
                 score_kevin = score_kevin + 5
-   
+            
+        
         else:
             print("La puntucación de Kevin es: " + str(score_kevin))
             break
+            
 
 
-def ganador():
-    if score_stuart > score_kevin:
-        print("El ganador es Stuart")
-    if score_kevin >score_stuart:
-        print("El ganador es Kevin")
-    else:
-        print("Empate, no hay ganador")
+
+if score_stuart > score_kevin:
+    print("El ganador es Stuart")
+if score_kevin >score_stuart:
+    print("El ganador es Kevin")
+else:
+    print("Empate, no hay ganador")
 
 
 
