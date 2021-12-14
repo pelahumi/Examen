@@ -18,10 +18,17 @@ def Stuart():
         respuesta = input("\n" + "Tienes alguna combinación: ")
 
         if respuesta == "Sí" or respuesta == "Si" or respuesta == "si" or respuesta == "sí":
+            lista = list(string_aleatorio)
             combinacion = input("Introduce la combinación: ")
+
+            if combinacion not in lista:
+                print("Error introduce una combinacion con las letras correspondientes.")
+
             score_stuart = score_stuart + 1
         else:
             break
+
+    
         print(score_stuart)
 
 
