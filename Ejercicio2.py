@@ -13,17 +13,18 @@ import sys
 #
 def verticalRooks(r1, r2):
     # Write your code here
-
-
-
-
-
-
-
-
-
-
     
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     t = int(input().strip())
