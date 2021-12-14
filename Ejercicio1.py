@@ -10,7 +10,8 @@ def Stuart():
     numero = 0
     while numero < i:
         string_aleatorio = random.choice(string)
-        print(string_aleatorio)
+        print(string_aleatorio,end=" ")
+        numero = numero + 1
         
 
 
