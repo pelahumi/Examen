@@ -24,7 +24,14 @@ def Stuart():
             if combinacion not in lista:
                 print("Error introduce una combinacion con las letras correspondientes.")
 
-            score_stuart = score_stuart + 1
+            combinaciones = list(combinacion)
+
+            if combinacion in  combinaciones:
+                print("La combinación está repetida")
+
+            else:
+                score_stuart = score_stuart + 1
+   
         else:
             break
 
