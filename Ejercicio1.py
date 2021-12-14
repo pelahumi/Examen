@@ -10,8 +10,27 @@ def Stuart():
     numero = 0
     while numero < i:
         string_aleatorio = random.choice(string)
-        print(string_aleatorio,end=" ")
+        print(string_aleatorio,end="")
         numero = numero + 1
+
+    score_stuart = 0
+    while True:
+        respuesta = input("\n" + "Tienes alguna combinación: ")
+
+        if respuesta == "Sí" or respuesta == "Si" or respuesta == "si" or respuesta == "sí":
+            combinacion = input("Introduce la combinación: ")
+            score_stuart = score_stuart + 1
+        else:
+            break
+        print(score_stuart)
+
+
+
+
+
+
+
+
         
 
 
