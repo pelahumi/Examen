@@ -48,10 +48,8 @@ def Stuart():
                 score_stuart = score_stuart + 5
    
         else:
+            print("La puntucación de Stuart es: " + score_stuart)
             break
-
-    
-        print(score_stuart)
 
 
 
